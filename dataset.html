@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focal Split Data | Focal-Split</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/dataset.css">
+</head>
+
+<body class="bg-white text-gray-900 font-sans">
+
+    <!-- Header -->
+    <header class="bg-black text-white py-4">
+        <div class="header-container">
+            <h1 class="text-xl font-semibold mb-1">Focal Split Dataset</h1>
+            <a href="https://focal-split.qiguo.org" class="hover:underline text-sm">← Back to Home</a>
+        </div>
+    </header>
+
+    <!-- Real-World Data Section -->
+    <section class="section-container">
+        <h2 class="section-title">Real-World Images & Depth Maps</h2>
+        <p class="section-description">
+            Explore our dataset of captured image pairs and corresponding depth-related maps. Click on thumbnails to
+            view full images or download files.
+        </p>
+
+        <div class="overflow-x-auto">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Image 1</th>
+                        <th>Image 2</th>
+                        <th>Aligned Image 2</th>
+                        <th>Reference Depth</th>
+                        <th>Confidence Map</th>
+                        <th>Predicted Depth</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="hover:bg-gray-50">
+                        <td class="cell">CVPR</td>
+
+                        <td class="cell">
+                            <a href="static/images/Example_CVPR_img0.png" target="_blank">
+                                <img src="static/images/Example_CVPR_img0.png" alt="Image 1" class="thumb" />
+                            </a>
+                        </td>
+
+                        <td class="cell">
+                            <a href="static/images/Example_CVPR_img1.png" target="_blank">
+                                <img src="static/images/Example_CVPR_img1.png" alt="Image 2" class="thumb" />
+                            </a>
+                        </td>
+
+                        <td class="cell">
+                            <a href="static/images/Example_CVPR_aligned.png" target="_blank">
+                                <img src="static/images/Example_CVPR_aligned.png" alt="Aligned Image 2" class="thumb" />
+                            </a>
+                        </td>
+
+                        <td class="cell">
+                            <a href="static/images/Example_CVPR_predDepth.png" target="_blank">
+                                <img src="static/images/Example_CVPR_predDepth.png" alt="Reference Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+
+                        <td class="cell">
+                            <a href="static/images/Example_CVPR_conf.png" target="_blank">
+                                <img src="static/images/Example_CVPR_conf.png" alt="Confidence Map" class="thumb" />
+                            </a>
+                        </td>
+
+                        <td class="cell">
+                            <a href="static/images/Example_CVPR_predDepth.png" target="_blank">
+                                <img src="static/images/Example_CVPR_predDepth.png" alt="Predicted Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr class="hover:bg-gray-50">
+                        <td class="cell">keyboard</td>
+                        <td class="cell">
+                            <a href="static/images/Example_keyboard_img0.png" target="_blank">
+                                <img src="static/images/Example_keyboard_img0.png" alt="Image 1" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_keyboard_img1.png" target="_blank">
+                                <img src="static/images/Example_keyboard_img1.png" alt="Image 2" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_keyboard_aligned.png" target="_blank">
+                                <img src="static/images/Example_keyboard_aligned.png" alt="Aligned Image 2"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_keyboard_predDepth.png" target="_blank">
+                                <img src="static/images/Example_keyboard_predDepth.png" alt="Reference Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_keyboard_conf.png" target="_blank">
+                                <img src="static/images/Example_keyboard_conf.png" alt="Confidence Map" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_keyboard_predDepth.png" target="_blank">
+                                <img src="static/images/Example_keyboard_predDepth.png" alt="Predicted Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr class="hover:bg-gray-50">
+                        <td class="cell">Pokemon</td>
+                        <td class="cell">
+                            <a href="static/images/Example_Pokemon_img0.png" target="_blank">
+                                <img src="static/images/Example_Pokemon_img0.png" alt="Image 1" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_Pokemon_img1.png" target="_blank">
+                                <img src="static/images/Example_Pokemon_img1.png" alt="Image 2" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_Pokemon_aligned.png" target="_blank">
+                                <img src="static/images/Example_Pokemon_aligned.png" alt="Aligned Image 2"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_Pokemon_predDepth.png" target="_blank">
+                                <img src="static/images/Example_Pokemon_predDepth.png" alt="Reference Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_Pokemon_conf.png" target="_blank">
+                                <img src="static/images/Example_Pokemon_conf.png" alt="Confidence Map" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_Pokemon_predDepth.png" target="_blank">
+                                <img src="static/images/Example_Pokemon_predDepth.png" alt="Predicted Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr class="hover:bg-gray-50">
+                        <td class="cell">ruler</td>
+                        <td class="cell">
+                            <a href="static/images/Example_ruler_img0.png" target="_blank">
+                                <img src="static/images/Example_ruler_img0.png" alt="Image 1" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_ruler_img1.png" target="_blank">
+                                <img src="static/images/Example_ruler_img1.png" alt="Image 2" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_ruler_aligned.png" target="_blank">
+                                <img src="static/images/Example_ruler_aligned.png" alt="Aligned Image 2"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_ruler_predDepth.png" target="_blank">
+                                <img src="static/images/Example_ruler_predDepth.png" alt="Reference Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_ruler_conf.png" target="_blank">
+                                <img src="static/images/Example_ruler_conf.png" alt="Confidence Map" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_ruler_predDepth.png" target="_blank">
+                                <img src="static/images/Example_ruler_predDepth.png" alt="Predicted Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr class="hover:bg-gray-50">
+                        <td class="cell">snack</td>
+                        <td class="cell">
+                            <a href="static/images/Example_snack_img0.png" target="_blank">
+                                <img src="static/images/Example_snack_img0.png" alt="Image 1" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_snack_img1.png" target="_blank">
+                                <img src="static/images/Example_snack_img1.png" alt="Image 2" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_snack_aligned.png" target="_blank">
+                                <img src="static/images/Example_snack_aligned.png" alt="Aligned Image 2"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_snack_predDepth.png" target="_blank">
+                                <img src="static/images/Example_snack_predDepth.png" alt="Reference Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_snack_conf.png" target="_blank">
+                                <img src="static/images/Example_snack_conf.png" alt="Confidence Map" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_snack_predDepth.png" target="_blank">
+                                <img src="static/images/Example_snack_predDepth.png" alt="Predicted Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr class="hover:bg-gray-50">
+                        <td class="cell">waterbottle</td>
+                        <td class="cell">
+                            <a href="static/images/Example_waterbottle_img0.png" target="_blank">
+                                <img src="static/images/Example_waterbottle_img0.png" alt="Image 1" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_waterbottle_img1.png" target="_blank">
+                                <img src="static/images/Example_waterbottle_img1.png" alt="Image 2" class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_waterbottle_aligned.png" target="_blank">
+                                <img src="static/images/Example_waterbottle_aligned.png" alt="Aligned Image 2"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_waterbottle_predDepth.png" target="_blank">
+                                <img src="static/images/Example_waterbottle_predDepth.png" alt="Reference Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_waterbottle_conf.png" target="_blank">
+                                <img src="static/images/Example_waterbottle_conf.png" alt="Confidence Map"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                        <td class="cell">
+                            <a href="static/images/Example_waterbottle_predDepth.png" target="_blank">
+                                <img src="static/images/Example_waterbottle_predDepth.png" alt="Predicted Depth"
+                                    class="thumb" />
+                            </a>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Calibration Section -->
+    <section class="section-container bg-gray-100">
+        <h2 class="section-title">Calibration Data</h2>
+        <p class="section-description">Download intrinsic/extrinsic parameters and view key calibration plots.</p>
+        <div class="mb-4">
+            <img src="images/calibration_plot.png" alt="Calibration Plot" class="rounded shadow">
+        </div>
+        <a href="downloads/calibration_data.zip" download class="text-blue-600 hover:underline">Download Calibration
+            Files (.zip)</a>
+    </section>
+
+    <!-- Specifications Section -->
+    <section class="section-container">
+        <h2 class="section-title">System Specifications</h2>
+        <table class="spec-table">
+            <thead>
+                <tr>
+                    <th>Component</th>
+                    <th>Specification</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lens</td>
+                    <td>Achromatic doublet, 25 mm focal length</td>
+                </tr>
+                <tr>
+                    <td>Sensors</td>
+                    <td>2× Raspberry Pi HQ Cameras</td>
+                </tr>
+                <tr>
+                    <td>Aperture</td>
+                    <td>f/4 and f/8 with beam splitter</td>
+                </tr>
+                <tr>
+                    <td>Baseline</td>
+                    <td>25 mm (optical axis offset)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- PSF Section -->
+    <section class="section-container bg-gray-100">
+        <h2 class="section-title">Point Spread Functions (PSFs)</h2>
+        <p class="section-description">Below are PSF visualizations of the system across selected depths. Click to
+            download full data.</p>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="border rounded-lg shadow p-4">
+                <img src="images/psf_0.5m.png" alt="PSF at 0.5m" class="rounded mb-2 w-full h-auto">
+                <p class="text-sm mb-2 text-gray-600">Depth: 0.5 m</p>
+                <a href="downloads/psf_0.5m.npy" download class="text-blue-600 text-sm hover:underline">Download PSF
+                    (.npy)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white p-4 text-center text-sm">
+        &copy; 2025 Focal Split Project – <a href="https://qiguo.org" class="underline">Qi Guo Lab</a>
+    </footer>
+
+</body>
+
+</html>
